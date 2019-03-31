@@ -1,10 +1,26 @@
 <div align="center">
     <img src="icon.png">
     <br>
+    <br>
     <p>Light Javascript date and time utilities (formatting, ranges e.t.c).</p>
+    <br>
 </div>
 
-CDN: `https://unpkg.com/dubium@0.0.3/dist/dubium.js`
+Dubium works both in the browser and with node.
 
-Dubium works both in the browser and with Node. Here's an example for each:
+For browser use, either the dubium.js file yourself (located in the `dist/` directory) or use a CDN:
+
+Use either:
+
+**jsDelivr:**
+`<script src="https://cdn.jsdelivr.net/npm/dubium@0.0.6/dist/dubium.js"></script>`
+
+**unpckg:**
+`<script src="https://cdn.jsdelivr.net/npm/dubium@0.0.6/dist/dubium.js"></script>`
+
+As for NodeJS, it can be included like so:
+
+```javascript
+const dubium = require("dubium");
+```
 

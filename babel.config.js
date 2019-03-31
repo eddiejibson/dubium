@@ -11,6 +11,8 @@ const presets = [
                 ie: "10"
             },
             useBuiltIns: "entry",
+            modules: "commonjs",
+            loose: true
         },
     ],
 ];
