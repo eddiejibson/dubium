@@ -1,0 +1,25 @@
+{
+  "name": "dubium",
+  "version": "0.0.1",
+  "description": "Light Javascript date and time utilities (formatting, ranges e.t.c)",
+  "main": "lib/dubium.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddiejibson/dubium.git"
+  },
+  "author": "Edward Jibson",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/eddiejibson/dubium/issues"
+  },
+  "homepage": "https://github.com/eddiejibson/dubium#readme"
+}
