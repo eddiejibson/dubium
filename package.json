@@ -4,10 +4,12 @@
   "description": "Light Javascript date and time utilities (formatting, ranges e.t.c)",
   "main": "lib/dubium.js",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "dist": "dist"
   },
   "files": [
-    "lib/"
+    "lib/",
+    "dist/"
   ],
   "scripts": {
     "build": "babel lib/dubium.js --out-file dist/dubium.js"
