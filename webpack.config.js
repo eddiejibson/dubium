@@ -7,7 +7,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: 'dubium.min.js',
         library: 'dubium',
-        libraryTarget: 'umd'
+        libraryTarget: 'var'
     },
     module: {
         rules: [{
