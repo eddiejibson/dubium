@@ -4,9 +4,11 @@
     <p><i>Light (1kb gzipped) Javascript date and time utilities (formatting, ranges e.t.c).</i></p>
 </div>
 
+If you appreciate this project, please 🌟 it on [GitHub](https://github.com/eddiejibson/dubium).
+
 Dubium works both in the browser and with node.
 
-For browser use, either host the dubium.js file yourself (located in the `dist/` directory) or use a CDN (and, yes, it's free):
+For browser use, either host the dubium.js file yourself (By [downloading the current release here](https://github.com/eddiejibson/dubium/releases)) or use a CDN (and, yes, it's free):
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/dubium@0.0.8/dist/dubium.min.js"></script>
