@@ -1,6 +1,6 @@
 {
   "name": "dubium",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Light Javascript date and time utilities (formatting, ranges e.t.c)",
   "main": "lib/dubium.js",
   "directories": {
