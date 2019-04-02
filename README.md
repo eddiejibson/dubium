@@ -52,6 +52,19 @@ dubium.getWeekRange(3163604400000); // Array [ 3163446000000, 3161375999999 ]
 // These functions will be improved and added upon soon, too.
 ```
 
+## Benchmarks
+
+Tested the speed of formatting and unformatting in Chrome 75 on Windows 10.
+
+See it for yourself [here on jsPerf](https://jsperf.com/dubium/4).
+
+|Library|Ops/sec|
+|--|--|
+|Dubium|197,278|
+|[DayJS](https://github.com/iamkun/dayjs)|108,859|
+|[MomentJS](https://github.com/moment/moment)|56,163|
+
+
 ## Development
 
 Building dubium for browser:
