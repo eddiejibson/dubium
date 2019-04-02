@@ -56,7 +56,7 @@ dubium.getWeekRange(3163604400000); // Array [ 3163446000000, 3161375999999 ]
 
 Tested the speed of formatting and unformatting in Chrome 75 on Windows 10.
 
-See it for yourself [here on jsPerf](https://jsperf.com/dubium/4](https://jsperf.com/dubium/4).
+See it for yourself [here on jsPerf](https://jsperf.com/dubium/4).
 
 |Library|Ops/sec|
 |--|--|
