@@ -14,7 +14,7 @@ const getWeekRange = (time = null, justStart = false) => {
     }
     let lt = last.getTime();
     return [ft, lt];
-}
+};
 
 const daysInRange = (to, from = null, str = false) => {
     if (!from && Array.isArray(to) && to.length > 1) {
@@ -32,7 +32,7 @@ const daysInRange = (to, from = null, str = false) => {
         time.setDate(time.getDate() + 1);
     }
     return range;
-}
+};
 
 const unformat = (str = null, format = "DD/MM/YY hh:mm:ss") => {
     var match = /MMM/.exec(format),
@@ -49,9 +49,9 @@ const unformat = (str = null, format = "DD/MM/YY hh:mm:ss") => {
         for (var i = 0; i < months.length; i++) {
             if (months[i].substr(0, 3).toLowerCase() == str.substr(match.index, 3).toLowerCase()) {
                 if (match2) {
-                    str = str.replace(months[i], "XXXX")
+                    str = str.replace(months[i], "XXXX");
                 } else {
-                    str = str.replace(months[i].substr(0, 3), "XXX")
+                    str = str.replace(months[i].substr(0, 3), "XXX");
                 }
                 month = months.indexOf(months[i]) + 1;
                 break;
@@ -77,7 +77,7 @@ const unformat = (str = null, format = "DD/MM/YY hh:mm:ss") => {
 
                 hours += 12;
             }
-            format = format.replace(format.substr(match.index, 1), "XX")
+            format = format.replace(format.substr(match.index, 1), "XX");
         }
     }
 
@@ -183,17 +183,28 @@ const format = (str = null, time = null) => {
         str = str.replace("MM", month);
     }
     if (str.match(/YYYY/)) {
-        str = str.replace("YYYY", time.getFullYear())
+        str = str.replace("YYYY", time.getFullYear());
     } else if (str.match(/YY/)) {
         str = str.replace("YY", String(time.getFullYear()).substr(2, 4));
     }
     return str;
 };
 
+// Exporting dubium for nodejs & browsers:
 
-module.exports = {
+const dubium = {
     format: format,
     unformat: unformat,
     getWeekRange: getWeekRange,
     daysInRange: daysInRange
 };
+
+if(typeof module != "undefined")
+{
+    module.exports = dubium;
+}
+
+if(typeof window != "undefined")
+{
+    window.dubium = dubium;
+}
