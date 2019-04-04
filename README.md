@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="icon.png">
+    <img src="logo.png">
     <br>
     <p><i>Light (1kb gzipped) Javascript date and time utilities (formatting, ranges e.t.c).</i></p>
 </div>
