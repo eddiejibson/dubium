@@ -1,6 +1,6 @@
 {
   "name": "dubium",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Light Javascript date and time utilities (formatting, ranges e.t.c)",
   "main": "lib/dubium.js",
   "browser": "dist/dubium.min.js",
