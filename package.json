@@ -20,7 +20,7 @@
     "url": "git+https://github.com/eddiejibson/dubium.git"
   },
   "author": "Edward Jibson",
-  "license": "GPL-3.0-only",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/eddiejibson/dubium/issues"
   },
